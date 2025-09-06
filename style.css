@@ -10,7 +10,8 @@
 }
 
 #hero{
-    background-image: url(./photos/hero-bg.png);
+    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(134, 95, 95, 0) 100%),
+    url(./photos/hero-bg.png);
     width: 120rem;
     height: 57.438rem;
     background-size: cover;
@@ -44,7 +45,7 @@
 font-family: Work Sans;
 font-size: 64px;
 font-weight: 700;
-line-height: 80px;
+line-height: 70px;
 letter-spacing: 0%;
 text-align: center;
 margin-bottom: 1.5rem;
