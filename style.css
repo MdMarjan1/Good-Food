@@ -9,3 +9,58 @@
     text-decoration: none;
 }
 
+#hero{
+    background-image: url(./photos/hero-bg.png);
+    width: 120rem;
+    height: 57.438rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#hero .hero-content{
+    width: 63.938rem;
+
+}
+
+#hero .hero-content .subtittle {
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .hero-tittle{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero .hero-content .content{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* all button */
+
+
+
+
+
