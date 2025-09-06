@@ -15,8 +15,7 @@ body{
 #hero{
     background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(134, 95, 95, 0) 100%),
     url(./photos/hero-bg.png);
-    /* width: 120rem; */
-    /* width: 100%; */
+    width: 120rem;
     height: 57.438rem;
     background-size: cover;
     display: flex;
@@ -35,7 +34,7 @@ body{
 #hero .hero-content .subtittle {
     color: rgba(255, 255, 255, 1);
     font-family: Work Sans;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 100%;
     letter-spacing: 0%;
@@ -47,7 +46,7 @@ body{
     color: rgba(255, 255, 255, 1);
 
 font-family: Work Sans;
-font-size: 64px;
+font-size: 4rem;
 font-weight: 700;
 line-height: 70px;
 letter-spacing: 0%;
@@ -59,9 +58,9 @@ margin-bottom: 1.5rem;
     color: rgba(255, 255, 255, 1);
 
 font-family: Work Sans;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 500;
-line-height: 28px;
+line-height: 1.75rem;
 letter-spacing: 0%;
 text-align: center;
 margin-bottom: 2rem;
@@ -70,8 +69,7 @@ margin-bottom: 2rem;
 /* all button */
 .btn-1{
     background-color: rgb(31, 194, 31);
-    padding: 15px 15px;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: white;
     border: none;
     padding: 21px 32px 21px 32px;
