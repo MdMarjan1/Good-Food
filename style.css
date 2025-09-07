@@ -81,11 +81,16 @@
 }
 
 /* 2nd part start */
-#cart-box{
-    width: 82.5rem;
+.tittle-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.438rem;
+    gap: 1rem;
+    /* width: 43.188rem; */
 }
 
-.cart-tittle .sub-tittle{
+.tittle-bar p{
     color: rgba(16, 16, 16, 1);
     font-family: Work Sans;
     font-size: 24px;
@@ -95,7 +100,7 @@
     text-align: center;
 }
 
-.cart-tittle .head-tittle{
+.tittle-bar h1{
     color: rgba(16, 16, 16, 1);
     font-family: Work Sans;
     font-size: 48px;
@@ -103,4 +108,24 @@
     line-height: 64px;
     letter-spacing: 0%;
     text-align: center;
+    width: 43.188rem;
 }
+
+.cart-bars{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cart-menu img{
+    width: 100%;
+}
+.cart-menu{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+
+
