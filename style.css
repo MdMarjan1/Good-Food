@@ -8,82 +8,99 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-    overflow-x: hidden;
-}
 
 #hero{
-    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(134, 95, 95, 0) 100%),
+    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),
     url(./photos/hero-bg.png);
-    width: 120rem;
-    height: 57.438rem;
     background-size: cover;
+    background-position: center;
+    /* width: 120rem;  use with make extra overflow*/ 
+    height: 58rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-
+    justify-content: center;
+    width: 100%;
+    
 }
 
-#hero .hero-content{
+#hero .hero-container{
     width: 63.938rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
 
 }
 
-#hero .hero-content .subtittle {
+#hero .hero-container .subtittle{
     color: rgba(255, 255, 255, 1);
     font-family: Work Sans;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 600;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
-#hero .hero-content .hero-tittle{
+#hero .hero-container .hero-tittle{
     color: rgba(255, 255, 255, 1);
-
-font-family: Work Sans;
-font-size: 4rem;
-font-weight: 700;
-line-height: 70px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 1.5rem;
-}
-
-#hero .hero-content .content{
-    color: rgba(255, 255, 255, 1);
-
-font-family: Work Sans;
-font-size: 1.125rem;
-font-weight: 500;
-line-height: 1.75rem;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 2rem;
-}
-
-/* all button */
-.btn-1{
-    background-color: rgb(31, 194, 31);
-    border-radius: 0.5rem;
-    color: white;
-    border: none;
-    padding: 21px 32px 21px 32px;
-    font-size: 20px;
     font-family: Work Sans;
-    font-weight: 600;
-    line-height: 100%;
-
-}
-
-.btn-content{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
     text-align: center;
 }
 
+#hero .hero-container .content{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
+#hero .btn-content{
+    text-align: center;
+}
 
+#hero .btn-content .btn-1{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 1);
+    padding: 21px 32px 21px 32px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
 
+/* 2nd part start */
+#cart-box{
+    width: 82.5rem;
+}
+
+.cart-tittle .sub-tittle{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.cart-tittle .head-tittle{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
