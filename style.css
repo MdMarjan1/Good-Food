@@ -62,11 +62,11 @@
     text-align: center;
 }
 
-#hero .btn-content{
+.btn-content{
     text-align: center;
 }
 
-#hero .btn-content .btn-1{
+.btn-content .btn-1{
     border-radius: 8px;
     background: rgba(82, 195, 3, 1);
     padding: 21px 32px 21px 32px;
@@ -114,6 +114,7 @@
 .cart-bars{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 
 }
 
@@ -166,4 +167,8 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
 word-wrap:break-word;
+}
+
+.cart-box{
+    margin-bottom: 11rem;
 }
